@@ -2,7 +2,7 @@
   Adds the SRS background to new Teams' background list for the logged-on user.
   NinjaOne: run as "Current logged on user". Safe to re-run (fixed GUID overwrites).
 #>
-$ImageUrl = 'https://REPLACE-ME/SRS-Teams-Background.jpg'
+$ImageUrl = 'https://raw.githubusercontent.com/tlayton-srs/teams-background/main/SRS-Teams-Background.jpg'
 $Guid     = '5a1e0c3b-7d2f-4e8a-9b6c-1f0d2e3a4b5c'   # fixed so re-runs replace, not duplicate
 
 $dir = Join-Path $env:LOCALAPPDATA 'Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams\Backgrounds\Uploads'
